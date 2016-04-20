@@ -7,12 +7,12 @@ import (
 	"os"
 	"time"
 
-	"github.com/SpaceLeap/go-mavlink/mavlink"
-	// "github.com/SpaceLeap/go-mavlink/mavlink/common"
-	"github.com/SpaceLeap/go-mavlink/mavlink/ardupilotmega"
+	"go-mavlink/mavlink"
+	// "go-mavlink/mavlink/common"
 	tarm "github.com/tarm/goserial"
 	"github.com/ungerik/go-dry"
 	"github.com/ungerik/goserial"
+	"go-mavlink/mavlink/ardupilotmega"
 )
 
 var (

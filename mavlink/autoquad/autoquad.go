@@ -3,8 +3,8 @@ package autoquad
 import (
 	"fmt"
 
-	"github.com/SpaceLeap/go-mavlink/mavlink"
-	"github.com/SpaceLeap/go-mavlink/mavlink/common"
+	"go-mavlink/mavlink"
+	"go-mavlink/mavlink/common"
 )
 
 const (

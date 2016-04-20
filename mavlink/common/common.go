@@ -3,7 +3,7 @@ package common
 import (
 	"fmt"
 
-	"github.com/SpaceLeap/go-mavlink/mavlink"
+	"go-mavlink/mavlink"
 )
 
 const (

@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/SpaceLeap/go-mavlink/x25"
 	"github.com/ungerik/go-dry"
+	"go-mavlink/x25"
 )
 
 var errConnectionClosed = errors.New("Connection closed")

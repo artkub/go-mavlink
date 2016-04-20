@@ -3,8 +3,8 @@ package {{.Name}}
 import (
 	"fmt"
 
-	"github.com/SpaceLeap/go-mavlink/mavlink"{{if .Include}}
-	"github.com/SpaceLeap/go-mavlink/mavlink/{{.IncludeName}}"{{end}}
+	"go-mavlink/mavlink"{{if .Include}}
+	"go-mavlink/mavlink/{{.IncludeName}}"{{end}}
 )
 
 const (
