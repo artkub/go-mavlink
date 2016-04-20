@@ -535,7 +535,7 @@ const (
 	MAV_CMD_PREFLIGHT_REBOOT_SHUTDOWN      = 246 // Request the reboot or shutdown of system components.
 	MAV_CMD_OVERRIDE_GOTO                  = 252 // Hold / continue the current action
 	MAV_CMD_MISSION_START                  = 0   // start running a mission
-	MAV_CMD_COMPONENT_ARM_DISARM           = 0   // Arms / Disarms a component
+	MAV_CMD_COMPONENT_ARM_DISARM           = 400 // Arms / Disarms a component
 	MAV_CMD_START_RX_PAIR                  = 0   // Starts receiver pairing
 	MAV_CMD_REQUEST_AUTOPILOT_CAPABILITIES = 0   // Request autopilot capabilities
 	MAV_CMD_IMAGE_START_CAPTURE            = 0   // Start image capture sequence
@@ -4697,7 +4697,7 @@ func (self *Statustext) TypeSize() uint8 {
 }
 
 func (self *Statustext) TypeCRCExtra() uint8 {
-	return 86
+	return 83
 }
 
 func (self *Statustext) FieldsString() string {
